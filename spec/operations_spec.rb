@@ -39,7 +39,5 @@ describe "Operations" do
       methods = file_contents.split("not_safe?")
       match = methods.last
       expect(match).to include("?")
-    end
-  end
-  
+ 
 end
